@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loan Interest Rate Calculator</title>
+	<!--Referencing the external stylesheet file 'style.css'-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+
+		<div class="main">
+			
+			<!--Form creation starts from here... with label and textbox-->
+			<form>
+				<h2 style="text-align: center;">Simple Loan Interest Calculator</h2><br>
+				<label>Loan Amount ($)</label>
+				<input type="text" name="loanAmount"><br><br>
+				<label>Loan Term (Years)</label>
+				<input type="text" name="loanTerm"><br><br>
+				<label>Interest Rate (%)</label>
+				<input type="text" name="rate"><br><br>
+				<label>Compound</label>
+				<select>
+					<option>Annually</option>
+					<option>Monthly</option>
+					<option>Weekly</option>
+					<option>Daily</option>
+				</select><br><br>
+				<!--The button key-->
+				<input type="submit" name=""><br><br>
+				<!--The space where the result is displayed-->
+				<div id="" style="text-align: center;">
+					<h2>Result</h2>
+					<p id="result"></p>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!--Referencing the javascript file 'script.js'-->
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

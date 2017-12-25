@@ -1,0 +1,53 @@
+body{
+	font-family: sans-serif;
+
+}
+.main{
+	padding-left: 25%;
+	padding-top: 20px;
+	width: 40%;
+
+}
+form{
+	background-color: orange;
+	padding: 30px;
+	border-radius: 10px;
+	padding-bottom: 60px;
+}
+/*Style for the text boxes*/
+input[type=text] {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 5px 5px 0;
+	border:none;
+	border-bottom: 2px solid #4ad;
+	border-radius: 3px;
+}
+input[type=text] : focus {
+	border-color: #333;
+	border: none;
+
+}
+/*Style for the dropdown*/
+select {
+	padding: 7px;
+	margin-bottom: 5px;
+}
+/*Style for the button*/
+input[type=submit] {
+	padding: 5px 15px;
+	background-color: #ccc;
+	border:none;
+	margin: 0 auto;
+	cursor: pointer;
+	-webkit-border-radius:5px;
+	border-radius: 5px;	
+	margin-left: 40%
+}
+input[type=submit] : hover {
+	background-color: white;
+}
+/*Style for the div 'result'*/
+#result {
+	font-family: monospace;
+}
